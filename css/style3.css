@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.myh1 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.2rem;
+	padding-top: 0.7rem;
+	color: rgb(252, 255, 228);
+	text-shadow: 3px 5px 8px rgb(234, 255, 41);
+}
+#editor {
+	font-size: 4.3rem;
+	text-shadow: 3px 5px 8px rgb(227, 117, 255);
+}
+#btnSearch {
+	background-color: rgb(227, 117, 255);
+	color: rgb(252, 255, 228);
+	font-family: 'Jost', sans-serif;
+}
+body {
+	font-family: 'Comfortaa', cursive;
+	background: #000000;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0ef7b5, #B2FEFA);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #00dc6e, #1ae4e4);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#myTitle {
+	color: rgb(255, 225, 252);
+	font-family: 'Jost', sans-serif;
+	font-size: 50px;
+	margin-left: 30px;
+	text-shadow: 1px 3px 4px rgb(255, 117, 255);
+}
+button#btnNew {
+	background-color: #00d064;
+	color: rgb(252, 255, 228);
+	border: none;
+	width: 140px;
+	height: 45px;
+	margin-left: 37px;
+	margin-bottom: 14px;
+	font-family: 'Jost', sans-serif;
+	transform: skewX(-15deg);
+}
+#btnNew:hover {
+	background-color: rgb(255, 255, 255);
+	color: #00d064;
+}
+#addButton {
+	background-color: rgb(227, 117, 255);
+	color: rgb(252, 255, 228);
+	border: none;
+	width: 140px;
+	margin-left: 30px;
+	margin-top: 14px;
+	height: 45px;
+	font-family: 'Jost', sans-serif;
+	transform: skewX(-15deg);
+	margin-bottom: 30px;
+}
+#addButton:hover {
+	background-color: white;
+	color: rgb(227, 117, 255);
+	z-index: 0;
+}
+h2#myh2 {
+	color: #383838;
+	font-family: 'Jost', sans-serif;
+	text-shadow: 1px 1px 3px white;
+	font-size: 4rem;
+	text-shadow: 1px 5px 7px rgb(227, 117, 255);
+	transform: skewX(-12deg);
+}
+#btnModifica {
+	display: none;
+}
+#textareaInput {
+	height: 140px;
+	margin-top: 8px;
+}
+#yourSearchBtn {
+	width: 100px;
+	height: 37px;
+	background-color: rgb(227, 117, 255);
+	color:white;
+	border: none;
+}
+#yourSearchBtn:hover {
+	width: 100px;
+	height: 37px;
+	background-color: rgb(234, 255, 41);
+	color: rgb(101, 0, 126);
+}
+#btnChange {
+	background-color: rgb(227, 117, 255);
+	color: white;
+}
+#btnRemove {
+	background-color: #00d064;
+	color: white; 
+}
+#btnModifica {
+	background-color: rgb(227, 117, 255);
+	color: white;
+	margin-bottom: 30px;
+	width: 200px;
+	height: 43px;
+	border: none;
+	margin-left: 30px;
+	transform: skewX(-15deg);
+}
+#btnModifica:hover {
+	background-color: rgb(234, 255, 41);
+	color: #383838;
+}
+
+
+#myI {
+    font-size: 50px;
+    position: absolute;
+    top: 167px;
+    right: 14rem;
+    color: rgb(227, 117, 255);
+    opacity: 0.6;
+}
+#myI2 {
+    font-size: 56px;
+    position: absolute;
+    top: 128px;
+    right: 17rem;
+    color: rgb(234, 255, 41);
+    opacity: 0.6;
+}
+#myI:hover {
+    font-size: 65px; 
+}
+#myI2:hover {
+    font-size: 65px; 
+}
+@media screen and (max-width: 997px) {
+    #myI {
+        font-size: 45px;
+        position: absolute;
+        top: 160px;
+        right: 0.6rem;
+        color: rgb(227, 117, 255);
+        opacity: 0.6;
+    }
+    #myI2 {
+        font-size: 52px;
+        position: absolute;
+        top: 125px;
+        right: 3rem;
+        color: rgb(234, 255, 41);
+        opacity: 0.6;
+    }
+} 

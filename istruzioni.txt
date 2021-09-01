@@ -1,0 +1,6 @@
+1 - Tasto Save si salva nella lista Files, e automaticamente ripulisce entrambi i campi 
+2 - Tasto New ripulisce i campi in automatico al click
+3 - Tasto Elimina elimina
+4 - Tasto Change cambia il file selezionato 
+5 - Tasto Search cerca i files che voglio; al secondo click me li fa vedere tutti
+
